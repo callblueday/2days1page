@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.b {
+  border: 1px solid #999;
+}
+
+body {
+  background: #ddd;
+  overflow: hidden;
+}
+
+.wrap {
+  position: relative;
+  width: 960px;
+  height: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.voice-area {
+  position: absolute;
+  left: 80px;
+  top: 50%;
+  margin-top: -200px;
+  width: 650px;
+  border-bottom: 1px solid #999;
+  
+  .tip {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  .voice-content {
+    margin-left: 20px;
+    float: left;
+    outline: none;
+    width: 270px;
+    height: 35px;
+    border: 0;
+    padding: 0 15px;
+  }
+
+  .mic {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+}
+
+.info-area {
+  position: absolute;
+  background: #5fd9cd;
+  right: 10px;
+  top: 0;
+  width: 300px;
+  height: 2000px;
+}
